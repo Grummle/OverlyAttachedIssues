@@ -32,7 +32,7 @@ createContent = (data)->
 $(document).ready ->
 
 
-	for commentTextArea in $('[name="issue_comment[body]"],[name="comment[body]"]')
+	for commentTextArea in $('[name="issue_comment[body]"],[name="comment[body]"],[name="issue[body]"]')
 		do (commentTextArea)->
 			fileHandler = (data,fileName)->
 				upload(data,fileName).then (data)->
