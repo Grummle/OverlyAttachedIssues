@@ -1,3 +1,6 @@
+**This is basically dead, github added drag and drop image attachment to issues. Covers 99.9 of our needs so...PEACE, I'm out**
+
+
 OverlyAttachedIssues
 ====================
 
